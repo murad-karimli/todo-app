@@ -1,0 +1,138 @@
+*,*::after,*::before
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #F2F2F2;
+}
+.section1
+{
+    display: flex; 
+}
+.photo img
+{
+    width: 100%;
+    height:35%;
+    position: absolute;
+}
+.head
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.section2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 4%;
+    
+}
+.input
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.todo-list
+{
+    z-index: 1;
+    position: relative;
+}
+.input-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+.options
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    border-radius: 5px;
+    z-index: 3;
+}
+.options p
+{
+    margin: 9px;
+    color: #9495A5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:700;
+    z-index: 3;
+
+}
+::placeholder {
+    color: #9495A5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:400;
+    padding: 10px;
+  }
+.list
+{
+    padding: 0%;
+    list-style-type: none;
+    width: 100%; 
+
+}
+.list_element
+{
+    padding: 10px;
+   width: 100%;
+   list-style-type: none;
+   border-radius: 5px;
+   border-bottom: 1px solid #E3E4F1;
+   background-color: #ffff;
+   color: #494C6B;
+   margin: 10px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:400;
+  
+}
+.checkbox
+{
+    width: 19px;
+    height: 19px;
+    border-radius:50% ;
+    display: inline;
+   margin-right: 9px;
+   position: relative;
+   top: 3px;
+}
+.text
+{
+    display: inline;
+}
+.dark-mode
+{
+    color:#C8CBE7;
+    background-color: #25273D;
+}
+#button
+{
+    border: none;
+    background-color: inherit;
+    margin-left: 90%;
+    display: inline;
+    position: relative;
+    bottom: 15px;
+   border: none;
+   color: #25273D;
+   margin-bottom: 30xp;
+
+}
+#addbtn
+{
+    color: rgb(103, 99, 99);
+    z-index: 4;
+    background-color: #E3E4F1;
+    border: none;
+    border-radius: 4px;
+    margin: 1px;
+    
+}

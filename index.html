@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo App</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet"> -->
+    <meta name="description" content="Create to do list." />
+  </head>
+  <body>
+    <section class="section1">
+      <div class="photo">
+        <img src="img/bg-desktop-light.jpg" id="background" alt="" />
+      </div>
+    </section>
+    <section class="section2">
+      <div class="container">
+        <div class="head">
+          <img src="./img/TODO.png" alt="" />
+          <img src="./img/icon-moon.svg" id="icon" alt="" />
+        </div>
+
+        <form action="" class="to-do-form">
+          <div class="input-div">
+            <input type="text" class="input" placeholder="Create a new job.." />
+            <button id="addbtn">Add</button>
+          </div>
+
+          <div class="todo-list">
+            <ul class="list">
+              <!-- in JavaScript -->
+            </ul>
+          </div>
+        </form>
+
+        <div class="options">
+          <p><span id="count" value="0">0</span> items left</p>
+          <p id="all">All</p>
+          <p id="active">Active</p>
+          <p id="completed">Completed</p>
+          <p id="delete">Clear Complete</p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
